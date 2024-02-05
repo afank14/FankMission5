@@ -1,7 +1,29 @@
 ﻿@{
+    // Use this to add pricing to the 2nd half of the title on the browser tab
     ViewData["Title"] = "Pricing";
 }
 @{
 }
 
-<p>this is to show</p>
+<h2>Personal Training Services Calculator</h2>
+
+<!--Set up a form that when the submit function is clicked, will call a function in the site.js file-->
+<form>
+    <!--Number of hours input from the user, the min is 0-->
+    <label>Number of hours:</label>
+    <input type="number" id="hours" min="0"/>
+    <br />
+
+    <!--Hourly Rate input, which is set to 25 and readonly so it can't be changed by the user-->
+    <label>Hourly Rate:</label>
+    <input type="number" id="rate" value="25.00" readonly/>
+    <br />
+
+    <!--Button to submit-->
+    <input type="button" id="submit" value="Calculate Total"/>
+    <br />
+
+    <!--Add a total cost input that will be for the output, also readonly-->
+    <label>Total Cost:</label>
+    <input type="text" id="total" readonly/>
+</form>
