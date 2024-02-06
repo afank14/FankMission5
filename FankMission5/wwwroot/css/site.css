@@ -20,3 +20,23 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+/* Here are my added css styles */
+.formdiv {
+    display: flex;
+    text-align: left;
+    width: 50%;
+    margin: auto;
+}
+
+h1 {
+    text-align:center;
+}
+
+.inputs {
+    width: 30%;
+}
+
+.custom-header-background {
+    background-color: lightsteelblue !important;
+}

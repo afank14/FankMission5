@@ -1,7 +1,4 @@
-﻿// Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
-// for details on configuring this project to bundle and minify static web assets.
-
-// Create the function to calculate the total cost on button click
+﻿// Create the function to calculate the total cost on button click
 $("#submit").click(function () {
     // Set up a rate variable and grab the input
     let rate = $("#rate").val();
@@ -16,6 +13,9 @@ $("#submit").click(function () {
 
         // Clear the hours input and focus on it
         $("#hours").val("").focus();
+
+        // Clear the total output in case they are running it again
+        $("#total").val("");
 
         // Return so that it doesn't calculate the total
         return;
