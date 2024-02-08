@@ -30,13 +30,14 @@ body {
 }
 
 h1 {
-    text-align:center;
+    text-align: center;
+    color: royalblue;
 }
 
 .inputs {
     width: 30%;
 }
 
-.custom-header-background {
-    background-color: lightsteelblue !important;
+.custom-background {
+    background-color: lightblue !important;
 }
