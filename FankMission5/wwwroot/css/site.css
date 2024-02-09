@@ -24,18 +24,26 @@ body {
 /* Here are my added css styles */
 .formdiv {
     display: flex;
-    text-align: left;
-    width: 50%;
-    margin: auto;
+    justify-content: center; 
+    align-items: center; 
+}
+
+form {
+    text-align: left; 
+    width: 50%; 
+}
+
+.inputs {
+    width: 100%; 
+}
+
+#submit {
+    width: auto; 
 }
 
 h1 {
     text-align: center;
     color: royalblue;
-}
-
-.inputs {
-    width: 30%;
 }
 
 .custom-background {
