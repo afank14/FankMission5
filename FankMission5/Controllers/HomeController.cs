@@ -13,11 +13,13 @@ namespace FankMission5.Controllers
             _logger = logger;
         }
 
+        // Index action in the controller
         public IActionResult Index()
         {
             return View();
         }
 
+        // Pricing action to go to pricing page
         public IActionResult Pricing()
         {
             return View();

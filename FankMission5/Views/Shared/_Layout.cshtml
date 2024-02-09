@@ -24,9 +24,11 @@
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
+                            <!--Navigation back to the home page that will be available on all pages-->
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
                         <li class="nav-item">
+                            <!--Here it routes to the Pricing page by calling the Pricing action in the Home controller-->
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Pricing">Pricing</a>
                         </li>
                     </ul>
@@ -39,7 +41,7 @@
             @RenderBody()
         </main>
     </div>
-
+    <!--Here's the footer with a link to my linked in and the copyright symbol thing-->
     <footer class="border-top footer text-muted custom-background">
         <div class="container" style="display: inline-block; width: 33.33%; text-align: center">
             <a href="https://www.linkedin.com/in/alexfankhauser" target="_blank" style="text-decoration: none;">
